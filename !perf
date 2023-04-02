@@ -1,0 +1,20 @@
+$thumbnail[$authorAvatar]
+
+
+$title[$nickname - Sistema de Perfil]
+
+$color[#000000]
+
+$description[
+*Nome:* $username 
+*Biografia:* $getUserVar[biografia]
+*Dinheiro:* $getVar[dinheiro;$authorID]
+
+╶╴┃ Depositado: $getVar[bank;$authorID] ┃╶╴]
+
+$image[$getUserVar[addimage]]
+
+$newSelectMenu[perf;1;1;Selecion uma categoria.]
+
+$addSelectMenuOption[perf;Perfil;1-$authorID;Categoria Biografia;no;🌆]
+$addSelectMenuOption[perf;Menu Principal;2-$authorID;Categoria Principal;no;🏡]
