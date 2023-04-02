@@ -1,0 +1,34 @@
+$nomention
+$if[$message==1-$authorID]
+$thumbnail[$authorAvatar]
+
+
+$title[$nickname - Sistema de Perfil]
+
+$color[#000000]
+
+$description[
+*Nome:* $username 
+*Biografia:* $getUserVar[meutexto]
+*Rold's:* $getVar[suavardedinheiro;$authorID]
+
+╶╴┃ Bank Sald: $getVar[sua var;$authorID] ┃╶╴]
+
+$image[$getUserVar[addimage]]
+$footer[Use !banners para ver meus banners disponíveis.]
+$endif
+
+
+
+
+$if[$message==2-$authorID]
+$thumbnail[$authorAvatar]
+$color[#000000]
+$footer[$username]
+$footerIcon[$authorAvatar]
+$title[🔮 Perfil de $username]
+$description[
+
+┃╶╴Case: `!perf`
+┃╶╴Perfil: <@$authorID>
+$endif
