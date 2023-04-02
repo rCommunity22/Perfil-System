@@ -8,7 +8,7 @@ $color[#000000]
 $description[
 *Nome:* $username 
 *Biografia:* $getUserVar[biografia]
-*Dinheiro:* $getVar[dinheiro;$authorID]
+*Dinheiro:* $getVar[suavardedinheiro;$authorID]
 
 ╶╴┃ Depositado: $getVar[bank;$authorID] ┃╶╴]
 
