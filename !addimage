@@ -1,0 +1,6 @@
+$nomention
+
+$setUserVar[addimage;$message]
+$suppressErrors[Error!]
+
+boa! você trocou a imagem do perfil, GG!
