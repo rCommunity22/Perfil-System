@@ -1,0 +1,3 @@
+$nomention
+$setUserVar[meutexto;$message]
+🏖 Sua descrição foi alterada para: __*$message*__
